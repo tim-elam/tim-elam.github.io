@@ -1,0 +1,89 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.avatar {
+    display: none;
+}
+
+.header {
+    margin-bottom: 0;
+    padding-bottom: 2px;
+}
+
+.header > div {
+    position: relative;
+}
+
+.header h4 {
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.header p {
+    margin-bottom: 0px;
+}
+
+h3.title.with-icon {
+    margin: 12px 0 0 0;
+    padding-bottom: 2px;
+}
+
+ul.timeline {
+    padding: 0;
+}
+
+.timeline-badge.info {
+    display: none;
+}
+
+.timeline > li {
+    margin: 0;
+}
+
+.timeline > li > .timeline-panel {
+    border: none;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+.timeline > li.timeline-inverted > .timeline-panel:before {
+    display: none;
+}
+
+.timeline-heading h4, .timeline-heading p {
+    margin: 0;
+}
+
+.timeline-body {
+    padding-top: 3px;
+}
+
+.timeline-body li {
+    margin: -3px 0 -7px 0;
+    line-height: 18px;
+}
+
+.duration-location {
+    text-align: right;
+    position: absolute;
+    top: -2px;
+    right: 0;
+}
+
+.fa {
+    display: none !important;
+}
+
+.title.with-icon {
+    padding-left: 0;
+}
+
+.col-contact-info {
+    width: 100%;
+    text-align: right;
+    position: absolute;
+    top: 15px;
+    right: 0;
+}

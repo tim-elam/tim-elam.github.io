@@ -1,0 +1,15 @@
+- skill1:
+  name: Angular - TypeScript
+  percentage: 90%
+- skill2:
+  name: Django - Python
+  percentage: 85%
+- skill4:
+  name: ASP.NET - C#
+  percentage: 80%
+- skill3:
+  name: Node.js - ECMAScript 2018
+  percentage: 75%
+- skill5:
+  name: Flutter - Dart
+  percentage: 50%
