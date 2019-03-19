@@ -27,13 +27,11 @@ layout: default
                         </h4>
                     {% endif %}
                     <p>
-                      <small>
-                        <em class="text-muted">
-                          {% if work.title %}
+                      <em class="text-muted">
+                        {% if work.title %}
                           {{ work.title }}
-                          {% endif %}
-                        </em>
-                      </small>
+                        {% endif %}
+                      </em>
                     </p>
                   </div>
                   <div class="col-sm-4 duration-location">
@@ -74,8 +72,8 @@ layout: default
       <ul class="timeline">
         {% for education in site.data.educationHistory %}
         <li class="timeline-inverted">
-          {% if education.started %}
-          <div class="timeline-badge info">{{ education.started }}</div>
+          {% if education.graduated %}
+          <div class="timeline-badge info">{{ education.graduated }}</div>
           {% endif %}
           <div class="timeline-panel grid-block">
             <div class="timeline-heading">
