@@ -62,7 +62,7 @@ ul.timeline {
     margin-bottom: 3px;
 }
 
-.timeline-heading a[href]:after {
+a[href]:after {
     content: none;
 }
 
