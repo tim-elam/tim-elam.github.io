@@ -18,18 +18,19 @@ layout: amp
                 <div class="row">
                   <div class="col-sm-8">
                     {% if work.company %}
-                      <h4 class="timeline-title">
-                        {% if work.link %}
-                          <a href="{{ work.link }}" target="_blank" rel="noopener nofollow noreferrer">{{ work.company }}</a>
-                        {% else %}
-                          {{ work.company }}
-                        {% endif %}
-                        </h4>
+                    <h4 class="timeline-title">
+                      {% if work.link %}
+                      <a href="{{ work.link }}" target="_blank"
+                        rel="noopener nofollow noreferrer">{{ work.company }}</a>
+                      {% else %}
+                      {{ work.company }}
+                      {% endif %}
+                    </h4>
                     {% endif %}
                     <p>
                       <em>
                         {% if work.title %}
-                          {{ work.title }}
+                        {{ work.title }}
                         {% endif %}
                       </em>
                     </p>
