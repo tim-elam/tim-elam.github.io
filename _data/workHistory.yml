@@ -6,8 +6,13 @@
   duration: (Mar. 2019 - Present)
   description: 
     - >
-        Created PulpJam&trade;, an as of yet unreleased <em>Flutter</em> app for cultivating creative writing skills
-         and self-publishing short stories.
+        Createing PulpJam, 
+        <a href="https://flutter.io/"  target="_blank" rel="noopener noreferrer">Flutter</a>
+        /
+        <a href="https://github.com/davidmarne/built_redux"  target="_blank" rel="noopener noreferrer">Built Redux</a>
+        /
+        <a href="https://firebase.google.com/"  target="_blank" rel="noopener noreferrer">Firebase</a>
+        app to support the online creative writing community.
 
 - work2:
   company: Kabbage
@@ -18,23 +23,31 @@
   duration: (Apr. 2018 - Mar. 2019)
   description: 
     - >
-        Managed the frontend team responsible for Kabbage's 
-        <a href="https://www.kabbage.com/" target="_blank" rel="noopener nofollow noreferrer">public-facing marketing web presence</a>
-         and
-        <a href="https://www.kabbage.com/blog" target="_blank" rel="noopener nofollow noreferrer">content marketing <em>WordPress</em> blog</a>. 
-        Managed the full-stack team responsible for the customer onboarding of Kabbage's
-        <a href="https://app.kabbage.com/" target="_blank" rel="noopener nofollow noreferrer">primary single-page <em>Angular</em> lending application</a>.
+        Managed a frontend-focused full-stack team responsible for Kabbage's 
+        <a href="https://www.kabbage.com/" target="_blank" rel="noopener noreferrer">public-facing web presence</a>
+        , 
+        <a href="https://wordpress.org/" target="_blank" rel="noopener noreferrer">WordPress</a>
+        <a href="https://www.kabbage.com/blog" target="_blank" rel="noopener noreferrer">blog</a>. 
+        , and customer onboarding segment of Kabbage's primary single-page 
+        <a href="https://angular.io/" target="_blank" rel="noopener noreferrer">Angular</a> 
+        <a href="https://app.kabbage.com/" target="_blank" rel="noopener noreferrer">lending application</a>.
     - >
-        Managed the backend-focused full-stack team responsible for implementing credit portfolio strategies that
-         determine customer qualification status and pricing information.
+        Managed a backend-focused full-stack team responsible for implementing Kabbage's credit portfolio strategies.  
+    - >
+        Created <a href="#internal-resource--link-not-available" data-toggle="popover" data-trigger="hover focus" data-placement="right" data-content="Internal resource. Link not available.">DevHub</a>,
+        a static
+        <a href="https://jekyllrb.com/" target="_blank" rel="noopener noreferrer">Jekyll</a>.
+        site to empower individuals to develop their careers at Kabbage. 
     - > 
-        Drafted performance improvement and career development plans. Coached team members through  
+        Drafted performance improvement and career development plans.
+        Coached team members through individualized plans and tracked improvement.
     - > 
-        Negotiated with product organization and many internal stakeholders regarding new product features,
+        Negotiated with product organization and internal stakeholders regarding new product features,
          integrations, team capacity, and delivery timelines. 
     - > 
-        Evolved the testing strategy of Kabbage's flagship application to include <em>cypress.io</em> integration
-        tests in order to reduce heavy reliance on a large legacy suite of <em>C#</em> / <em>Selenium</em> end-to-end tests.
+        Lead adoption of  
+        <a href="https://cypress.io/" target="_blank" rel="noopener noreferrer">Cypress</a>
+        integration tests into Kabbage's primary release pipeline.
 
 - work3:
   company: Kabbage <small>(continued)</small>
@@ -45,18 +58,39 @@
   duration: (Jan. 2015 - Apr. 2018)
   description: 
     - >
-        Developed multiple <em>TypeScript</em> / <em>LESS</em> / <em>Angular</em> Single Page Applications
+        Developed multiple 
+        <a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreferrer">TypeScript</a>
+         /
+        <a href="https://angular.io/" target="_blank" rel="noopener noreferrer">Angular</a> 
+        single page applications.
     - >
-        Implemented RESTful API resources in <em>C#</em> / <em>ASP.NET Web API</em>.
+        Implemented RESTful API resources with
+        <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/" target="_blank" rel="noopener noreferrer">C#</a>
+        and
+        <a href="https://dotnet.microsoft.com/apps/aspnet/apis" target="_blank" rel="noopener noreferrer">ASP.net Web API</a>.
     - >
-        Designed, negotiated, and implemented data integration strategies with multiple external technology companies
+        Designed and implemented data integration strategies with external technology companies
          and financial institutions. 
     - >
-        Developed new and maintained existing <em>C#</em> / <em>AWS Simple Queue Service</em> message bus subscribers.
+        Developed new and maintained existing 
+        <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/" target="_blank" rel="noopener noreferrer">C#</a>
+        / 
+        <a href="https://aws.amazon.com/sqs/" target="_blank" rel="noopener noreferrer">AWS SQS</a>
+        background data gathering and processing jobs.
     - >
-        Designed Kabbage's <em>Angular</em> / <em>Express.js</em> / <em>AWS Elastic Beanstalk</em> Single Page Application architecture
+        Co-designed Kabbage's 
+        <a href="https://angular.io/" target="_blank" rel="noopener noreferrer">Angular</a> 
+        /
+        <a href="https://expressjs.com/" target="_blank" rel="noopener noreferrer">Express.js</a>
+        /
+        <a href="https://aws.amazon.com/elasticbeanstalk/" target="_blank" rel="noopener noreferrer">AWS Elastic Beanstalk</a>
+        single page application architecture
     - >
-        Architected and implemented Kore, a <em>Django</em> / <em>AngularJS</em> the customer servicing portal for authorized employees and external auditors.
+        Co-architected and implemented Kore, a
+        <a href="https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer">Django</a>
+        /
+        <a href="https://angularjs.org/" target="_blank" rel="noopener noreferrer">AngularJS</a>
+        customer servicing portal for internal employees and external auditors.
 
 - work4:
   company: Octane5 International
@@ -67,9 +101,11 @@
   duration: (Apr. 2014 - Dec. 2014)
   description: 
     - >
-        Developed and maintained <em> Django</em> product licensing SaaS system.
-    - >
-        Directly supported customers with communication and implementation of new features and bugfixes.
+        Developed and maintained
+        <a href="https://www.brandcomply.com/" target="_blank" rel="noopener noreferrer">BrandComply</a>,
+        a
+        <a href="https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer">Django</a>
+        product licensing SaaS system.
 
 - work5:
   company: Veloxiti
@@ -80,4 +116,10 @@
   duration: (Jul. 2013 - Apr. 2014)
   description:
     - >
-        Developed R&D prototype <em>Play Framework</em> web application to aid US Army Civil Affairs
+        Developed R&D prototype
+        <a href="https://www.playframework.com/" target="_blank" rel="noopener noreferrer">Play Framework</a>
+         application in
+        <a href="https://www.java.com/" target="_blank" rel="noopener noreferrer">Java</a>
+        and 
+        <a href="https://www.scala-lang.org/" target="_blank" rel="noopener noreferrer">Scala</a>
+        for US Army Civil Affairs group.
