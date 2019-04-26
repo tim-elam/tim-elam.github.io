@@ -1,20 +1,4 @@
 - work1:
-  company: Lemons of Science
-  location: Atlanta, Georgia
-  title: Founder
-  started: 2019
-  duration: (Mar. 2019 - Present)
-  description: 
-    - >
-        Creating PulpJam, 
-        <a href="https://flutter.io/"  target="_blank" rel="noopener noreferrer">Flutter</a>
-        /
-        <a href="https://github.com/davidmarne/built_redux"  target="_blank" rel="noopener noreferrer">Built Redux</a>
-        /
-        <a href="https://firebase.google.com/"  target="_blank" rel="noopener noreferrer">Firebase</a>
-        app to support the online creative writing community.
-
-- work2:
   company: Kabbage
   link: https://www.kabbage.com/
   location: Atlanta, Georgia
@@ -48,7 +32,7 @@
         <a href="https://cypress.io/" target="_blank" rel="noopener noreferrer">Cypress</a>
         integration tests into Kabbage's primary release pipeline.
 
-- work3:
+- work2:
   company: Kabbage <small>(continued)</small>
   link: https://www.kabbage.com/
   location: Atlanta, Georgia
@@ -95,7 +79,7 @@
         <a href="https://angularjs.org/" target="_blank" rel="noopener noreferrer">AngularJS</a>
         customer servicing portal for internal employees and external auditors.
 
-- work4:
+- work3:
   company: Octane5 International
   link: https://www.octane5.com/
   location: Atlanta, Georgia
@@ -110,7 +94,7 @@
         <a href="https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer">Django</a>
         product licensing SaaS system.
 
-- work5:
+- work4:
   company: Veloxiti
   link: https://www.veloxiti.com/
   location: Atlanta, Georgia
