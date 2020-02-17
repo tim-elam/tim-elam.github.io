@@ -84,7 +84,7 @@ layout: default
                     {% if education.organization %}
                     <h4 class="timeline-title">{{ education.organization }}</h4>
                     {% endif %}
-                    <p>
+                      <p>
                       <small class="text-muted">
                         {%- if education.degree -%}
                         {{ education.degree }}
@@ -115,6 +115,13 @@ layout: default
               </div>
             </div>
             <div class="timeline-body">
+              {%- if education.gpa -%}
+                <p>
+                  <small class="text-muted">
+                    GPA:&nbsp;{{- education.gpa }}
+                  </small>
+                </p>
+              {%- endif -%}
               {% if education.description %}
               <p>{{ education.description }}</p>
               {% endif %}

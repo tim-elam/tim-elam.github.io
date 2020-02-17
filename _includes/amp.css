@@ -410,7 +410,7 @@ ol ol,ol ul,ul ol,ul ul {
 
 
 li.timeline-inverted > .timeline-badge.info {
-    background-color: #5bc0de;
+    background-color: #249EBD;
 }
 
 .timeline-title {
@@ -418,12 +418,17 @@ li.timeline-inverted > .timeline-badge.info {
     color: inherit;
 }
 
-.timeline-body > p,
 .timeline-body > ul {
     margin-bottom: 0;
     padding-left: 15px;
     list-style-type: disc;
 }
+
+.timeline-body > p {
+    margin-bottom: 0;
+    padding-left: 30px;
+}
+
 .list-skills li .progress {
     height: 10px;
     box-shadow: none;
