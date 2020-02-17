@@ -6,8 +6,8 @@ favicon: /assets/img/avatar.JPG
 url: https://tim-elam.dev
 rss_url: /pages/atom.xml
 google_analytics: UA-38748317-2
-
 # Build settings
 markdown: kramdown
 
+include: [".well-known"]
 exclude: [vendor]
