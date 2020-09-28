@@ -1,8 +1,14 @@
 - education1:
+  organization: Georgia Institute of Technology
+  degree: Master of Business Administration
+  description: On-Campus Evening Program
+  graduated: 2022
+  duration: 2020 - 2022 (expected)
+  location: Atlanta, Georgia
+- education2:
   organization: Georgia Southern University
   degree: Bachelor of Science
   major: Computer Science
   graduated: 2013
-  duration: (2010 - 2013)
+  duration: 2010 - 2013
   location: Statesboro, Georgia
-  gpa: 3.3
