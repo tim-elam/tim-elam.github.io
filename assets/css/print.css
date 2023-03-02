@@ -66,6 +66,11 @@ a[href]:after {
     content: none;
 }
 
+.timeline-body ul {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 .timeline-body li {
     margin: -3px 0 -7px 0;
     line-height: 18px;

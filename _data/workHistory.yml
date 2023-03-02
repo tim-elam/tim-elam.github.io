@@ -2,104 +2,65 @@
   company: UserTesting
   link: https://www.usertesting.com/
   location: Chamblee, Georgia
-  title: Senior Manager, Engineering
-  started: 2019
-  duration: (Jul. 2019 - present)
+  title: Director of Engineering
+  started: 2021
+  duration: Aug. 2021 - Feb. 2023
   description:
-    - >
-        Managed the full-stack engineering team responsible for visualizing high-level insights from
-        customized
-        <a href="https://www.usertesting.com/" target="_blank" rel="noopener noreferrer">UserTesting</a>
-        usability research studies.
-    - >
-        Refined requirements, established technical direction, and planned detailed delivery timelines for large projects.
-    - >
-        Conducted training workshops to teach modern frameworks and promote best practices.
-    - >
-        Championed adoption of reactive programming techniques with
-        <a href="https://ngrx.io/" target="_blank" rel="noopener noreferrer">NGRX</a>
-        during the incremental migration from a
-        <a href="https://rubyonrails.org/" target="_blank" rel="noopener noreferrer">Ruby on Rails</a>
-        and
-        <a href="https://angularjs.org/" target="_blank" rel="noopener noreferrer">AngularJS</a>
-        JSON API-backed monolith to
-        <a href="https://angular.io/" target="_blank" rel="noopener noreferrer">Modern Angular</a>
-        and 
-        <a href="https://graphql.org/" target="_blank" rel="noopener noreferrer">GraphQL</a>-based
-        microservices.
-
-
+  - >
+    Mentored emerging engineering leaders to develop the skills to lead successful, empowered teams.
+  - >
+    Identified synergies between desired future capabilities and improvements in developer experience.
+  - >
+    Balanced new product initiatives, maintenance, and future investment work across multiple cross-functional teams.
 
 - work2:
+  company: UserTesting <small>(continued)</small>
+  link: https://www.usertesting.com/
+  location: Chamblee, Georgia
+  title: Senior Manager, Engineering
+  started: 2019
+  duration: Jul. 2019 - Aug. 2021
+  description:
+  - >
+    Project lead for Keyword Maps, a novel, interactive machine-learning-powered transcript visualization.
+  - >
+    Architected transition from AngularJS monolith to Angular and React-based NX monorepo.
+  - >
+    Improved team efficiency with Cypress API-mocking integration testing strategy
+
+- work3:
   company: Kabbage
   link: https://www.kabbage.com/
   location: Atlanta, Georgia
   title: Software Development Manager
   started: 2018
-  duration: (Apr. 2018 - Mar. 2019)
+  duration: Apr. 2018 - Mar. 2019
   description: 
-    - >
-        Managed both the front-end team responsible for Kabbage's 
-        <a href="https://www.kabbage.com/" target="_blank" rel="noopener noreferrer">public-facing web presence</a>
-        as well as the full-stack team responsible for the Kabbage
-        <a href="https://app.kabbage.com/signup/create_account" target="_blank" rel="noopener noreferrer">small business lending application process.</a>
-    - >
-        Managed a backend-focused team of full-stack responsible for implementing Kabbage's credit risk strategy.
-    - > 
-        Drafted performance improvement and career development plans.
-        Coached team members through individualized plans and tracked improvement.
-    - > 
-        Negotiated with product organization and internal stakeholders regarding new product features,
-         integrations, team capacity, and delivery timelines. 
+  - >
+    Drafted performance improvement and career development plans. Coached team members through individualized plans and tracked improvement.
+  - >
+    Negotiated with product organization and internal stakeholders regarding new product features, integrations, team capacity, and delivery timelines.
 
-- work3:
+- work4:
   company: Kabbage <small>(continued)</small>
   link: https://www.kabbage.com/
   location: Atlanta, Georgia
   title: Senior Software Engineer
   started: 2015
-  duration: (Jan. 2015 - Apr. 2018)
-  description: 
+  duration: Jan. 2015 - Apr. 2018
+  description:
     - >
-        Co-designed Kabbage's 
-        <a href="https://angular.io/" target="_blank" rel="noopener noreferrer">Modern Angular</a>,
-        <a href="https://expressjs.com/" target="_blank" rel="noopener noreferrer">Express.js</a>,
-        <a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer">Docker</a>,
-        and
-        <a href="https://aws.amazon.com/elasticbeanstalk/" target="_blank" rel="noopener noreferrer">AWS Elastic Beanstalk</a>
-        deployment stack.
+      Co-designed Kabbage's Angular, Express.js, Docker, and AWS Elastic Beanstalk deployment stack.
     - >
-        Designed and implemented integration strategies with technology partners
-         and financial institutions. 
-    - >
-        Developed and maintained real-time APIs and background processing jobs in
-        <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/" target="_blank" rel="noopener noreferrer">C#</a>.
-    - >
-        Implemented and co-architected Kore, a
-        <a href="https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer">Django</a>
-        and
-        <a href="https://angularjs.org/" target="_blank" rel="noopener noreferrer">AngularJS</a>
-        customer servicing portal for internal employees and external auditors.
+      Implemented and co-architected Kore, a Django and AngularJS customer servicing portal for internal employees and external auditors.
 
-- work3:
+- work5:
   company: Octane5 International
   link: https://www.octane5.com/
   location: Alpharetta, Georgia
   title: Django Developer
   started: 2014
-  duration: (Apr. 2014 - Dec. 2014)
+  duration: Apr. 2014 - Dec. 2014
   description: 
-    - >
-        Developed and maintained
-        <a href="https://www.brandcomply.com/" target="_blank" rel="noopener noreferrer">BrandComply</a>,
-        a
-        <a href="https://www.djangoproject.com/" target="_blank" rel="noopener noreferrer">Django</a>
-        product licensing Software as a Service platform.
-
-- work4:
-  company: Veloxiti
-  link: https://www.veloxiti.com/
-  location: Alpharetta, Georgia
-  title: Software Engineer I
-  started: 2013
-  duration: (Jul. 2013 - Apr. 2014)
+  - >
+    Developed and maintained BrandComply, a Django product licensing Software as a Service platform.
