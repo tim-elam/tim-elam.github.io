@@ -1,4 +1,15 @@
 - work1:
+  company: DemoFox
+  link: https://www.demofox.com/
+  location: Atlanta, Georgia
+  title: Founder & CEO
+  started: 2023
+  duration: Mar. 2023 - Present
+  description:
+    - >
+      Designed, and built DemoFox, an enterprise social video collaboration platform.
+
+- work2:
   company: UserTesting
   link: https://www.usertesting.com/
   location: Chamblee, Georgia
@@ -6,14 +17,12 @@
   started: 2021
   duration: Aug. 2021 - Feb. 2023
   description:
-  - >
-    Mentored emerging engineering leaders to develop the skills to lead successful, empowered teams.
-  - >
-    Identified synergies between desired future capabilities and improvements in developer experience.
-  - >
-    Balanced new product initiatives, maintenance, and future investment work across multiple cross-functional teams.
+    - >
+      Mentored emerging engineering leaders to develop the skills to lead successful, empowered teams.
+    - >
+      Balanced new product initiatives, maintenance, and future investment work across multiple cross-functional teams.
 
-- work2:
+- work3:
   company: UserTesting <small>(continued)</small>
   link: https://www.usertesting.com/
   location: Chamblee, Georgia
@@ -28,7 +37,7 @@
   - >
     Improved team efficiency with Cypress API-mocking integration testing strategy
 
-- work3:
+- work4:
   company: Kabbage
   link: https://www.kabbage.com/
   location: Atlanta, Georgia
@@ -38,10 +47,8 @@
   description: 
   - >
     Drafted performance improvement and career development plans. Coached team members through individualized plans and tracked improvement.
-  - >
-    Negotiated with product organization and internal stakeholders regarding new product features, integrations, team capacity, and delivery timelines.
 
-- work4:
+- work5:
   company: Kabbage <small>(continued)</small>
   link: https://www.kabbage.com/
   location: Atlanta, Georgia
@@ -51,10 +58,8 @@
   description:
     - >
       Co-designed Kabbage's Angular, Express.js, Docker, and AWS Elastic Beanstalk deployment stack.
-    - >
-      Implemented and co-architected Kore, a Django and AngularJS customer servicing portal for internal employees and external auditors.
 
-- work5:
+- work6:
   company: Octane5 International
   link: https://www.octane5.com/
   location: Alpharetta, Georgia
