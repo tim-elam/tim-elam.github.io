@@ -7,8 +7,11 @@
   duration: Mar. 2023 - Present
   description:
     - >
-      Designed, and built DemoFox, an enterprise social video collaboration platform.
-
+      Designed and built DemoFox, an enterprise social video collaboration platform.
+    - >
+      Frontend: Angular, Apollo GraphQL Client, AWS S3, Cloudfront, DaisyUI, Lambda@Edge, Tailwind, and Video.js
+    - >
+      Backend: Apollo GraphQL Server, API Gateway, AWS S3, AWS SES, DynamoDB, Elemental MediaConvert, EventBridge, Lambda, Maizzle, NestJS, PostgreSQL, and Prisma
 - work2:
   company: UserTesting
   link: https://www.usertesting.com/
@@ -21,6 +24,12 @@
       Mentored emerging engineering leaders to develop the skills to lead successful, empowered teams.
     - >
       Balanced new product initiatives, maintenance, and future investment work across multiple cross-functional teams.
+    - >
+      Frontend: Angular, StencilJS, and Bootstrap
+    - >
+      Backend: Ruby on Rails and MySQL
+    - >
+      Testing: Cypress and Selenium  
 
 - work3:
   company: UserTesting <small>(continued)</small>
@@ -35,7 +44,7 @@
   - >
     Architected transition from AngularJS monolith to Angular and React-based NX monorepo.
   - >
-    Improved team efficiency with Cypress API-mocking integration testing strategy
+    Improved team efficiency with Cypress API-mocking integration testing strategy.
 
 - work4:
   company: Kabbage
@@ -47,6 +56,10 @@
   description: 
   - >
     Drafted performance improvement and career development plans. Coached team members through individualized plans and tracked improvement.
+  - >
+    Frontend: Angular and Bootstrap
+  - >
+    Backend: nginx, Express, AWS Elastic Beanstalk, .NET, and IIS
 
 - work5:
   company: Kabbage <small>(continued)</small>

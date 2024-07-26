@@ -29,10 +29,17 @@ h3.title.with-icon {
     margin: 12px 0 0 0;
     padding-bottom: 2px;
     padding-left: 0;
+    font-weight: 600;
+    color: darkgray;
 }
 
 ul.timeline {
     padding: 0;
+}
+
+.timeline-title {
+    font-size: 18px;
+    font-weight: 600;
 }
 
 .timeline-badge.info {
@@ -93,4 +100,81 @@ a[href]:after {
     position: absolute;
     top: 15px;
     right: 0;
+}
+
+.summary {
+    margin-top: 10px;
+}
+
+.summary-panel {
+    margin: 10px 20px 0 20px;
+    padding: 0px;
+    border: none;
+    font-size: 12px;
+    text-align: center;
+}
+
+.skill-panel {
+    padding: 0;
+    margin: 0;
+    height: unset;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.timeline-title {
+    font-size: 18px;
+}
+
+.sections-row > div {
+    margin-bottom: 0;
+}
+
+.skills, .skills * {
+    border: none;
+}
+
+.skill-title {
+    margin: 5px;
+    margin-left: 15px;
+    margin-bottom: -10px;
+    font-size: 16px;
+}
+
+.skill-title::after {
+    margin-left: -4px;
+    content: ":"
+}
+
+.skills ul {
+    display: inline;
+    margin-left: 15px;
+}
+
+.skills ul li {
+    display: inline;
+    font-size: 14px;
+}
+
+.skills ul li:after {
+    content: ", ";
+}
+
+.skills li:nth-last-child(2):after {
+    content: ", and";
+} 
+
+.skills li:last-child:after {
+    content: "";
+} 
+
+.timeline > li > .timeline-panel:before,
+.timeline > li > .timeline-panel:after {
+    display: none;
+}
+
+.sections-row > div {
+    margin-bottom: 18px;
 }

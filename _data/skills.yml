@@ -1,0 +1,29 @@
+languages:
+  - C#
+  - Go
+  - GraphQL
+  - JavaScript
+  - Python
+  - Ruby
+  - SQL
+  - TypeScript
+
+frameworks:
+  - .NET
+  - Angular
+  - Node.js
+  - Prisma
+  - React
+  - Ruby on Rails
+  - Serverless
+  - Tailwind
+
+platforms:
+  - AWS
+  - Azure
+  - CircleCI
+  - Docker
+  - GitHub Actions
+  - OpenAI
+  - PostgreSQL
+  - Slack API
