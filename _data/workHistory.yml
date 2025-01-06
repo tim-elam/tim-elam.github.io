@@ -1,9 +1,18 @@
 - work1:
+  company: Branch Politics
+  link: https://branch.vote
+  title: Lead Engineer (contract)
+  started: 2024
+  duration: Dec. 2024 - Present
+  description:
+    - >
+      Implemented new features for internal election research portal.
+- work2:
   company: Peas
   link: https://peas.money
   title: Lead Engineer (contract)
   started: 2024
-  duration: Sep. 2024 - Present
+  duration: Sep. 2024 - Nov. 2024
   description:
     - >
       Developed and launched recurring ACH money movement APIs for couples’ joint financial management.
@@ -12,7 +21,7 @@
     - >
       Implemented code generation for enhanced type-safe database access, reducing error rates and improving development efficiency.
 
-- work2:
+- work3:
   company: DemoFox
   link: https://www.demofox.com/
   location: Atlanta, Georgia
@@ -26,7 +35,7 @@
       Frontend: Angular, S3, Cloudfront, DaisyUI, Lambda@Edge, Tailwind, and Video.js
     - >
       Backend: Serverless Framework, NestJS, API Gateway, S3, SES, DynamoDB, Elemental MediaConvert, EventBridge, Lambda, Maizzle, NestJS, PostgreSQL, and Prisma
-- work3:
+- work4:
   company: UserTesting
   link: https://www.usertesting.com/
   location: Chamblee, Georgia
@@ -45,7 +54,7 @@
     - >
       Testing: Cypress and Selenium  
 
-- work4:
+- work5:
   company: UserTesting <small>(continued)</small>
   link: https://www.usertesting.com/
   location: Chamblee, Georgia
@@ -60,7 +69,7 @@
   - >
     Improved team efficiency with Cypress API-mocking integration testing strategy.
 
-- work5:
+- work6:
   company: Kabbage
   link: https://www.kabbage.com/
   location: Atlanta, Georgia
@@ -75,7 +84,7 @@
   - >
     Backend: nginx, Express, AWS Elastic Beanstalk, .NET, and IIS
 
-- work6:
+- work7:
   company: Kabbage <small>(continued)</small>
   link: https://www.kabbage.com/
   location: Atlanta, Georgia
@@ -86,7 +95,7 @@
     - >
       Co-designed Kabbage's Angular, Express.js, Docker, and AWS Elastic Beanstalk deployment stack.
 
-- work7:
+- work8:
   company: Octane5 International
   link: https://www.octane5.com/
   location: Alpharetta, Georgia
