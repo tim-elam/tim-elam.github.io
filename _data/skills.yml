@@ -22,11 +22,11 @@ frameworks:
 
 platforms:
   - AWS CDK
-  - Azure
   - CircleCI
   - Docker
   - GitHub Actions
+  - MongoDB
   - OpenAI
   - PostgreSQL
-  - Serverless
-  - Slack API
+  - Serverless Framework
+  - Serverless Stack (SST)

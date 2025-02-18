@@ -1,12 +1,18 @@
 - work1:
   company: Branch Politics
   link: https://branch.vote
-  title: Lead Engineer (contract)
+  title: CTO
   started: 2024
   duration: Dec. 2024 - Present
   description:
     - >
-      Implemented new features for internal election research portal.
+      Architected and built human-assisting automated political candidate research pipeline.
+    - >
+      Optimized cloud compute costs by migrating applications from Heroku to AWS Lambda.
+    - >
+      Reduced AWS costs by 90% by decommissioning unused machine learning resources.
+    - >
+      Established incremental tech debt mitigation strategy and encouragement of best practices.
 - work2:
   company: Peas
   link: https://peas.money
