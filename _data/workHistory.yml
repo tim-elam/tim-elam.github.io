@@ -6,28 +6,15 @@
   duration: Dec. 2024 - Present
   description:
     - >
-      Architected and built human-assisting automated political candidate research pipeline.
+      Decreased cost to profile political candidates with automated retrieval augmented generation-based AI political candidate website scraper and profiler.
     - >
-      Optimized cloud compute costs by migrating applications from Heroku to AWS Lambda.
+      Increased service reliability by introducing ephemeral environments for end-to-end testing in temporarily provisioned environments.
     - >
-      Reduced AWS costs by 90% by decommissioning unused machine learning resources.
+      Optimized cloud compute costs by migrating applications from Heroku to AWS and archiving unused resources.
     - >
       Established incremental tech debt mitigation strategy and encouragement of best practices.
-- work2:
-  company: Peas
-  link: https://peas.money
-  title: Lead Engineer (contract)
-  started: 2024
-  duration: Sep. 2024 - Nov. 2024
-  description:
-    - >
-      Developed and launched recurring ACH money movement APIs for couples’ joint financial management.
-    - >
-      Established an AWS CDK-based serverless infrastructure to streamline event-driven architecture for secure money movement and financial data aggregation.
-    - >
-      Implemented code generation for enhanced type-safe database access, reducing error rates and improving development efficiency.
 
-- work3:
+- work2:
   company: DemoFox
   link: https://www.demofox.com/
   location: Atlanta, Georgia
@@ -36,12 +23,9 @@
   duration: Mar. 2023 - Sep. 2024
   description:
     - >
-      Designed and built DemoFox, an enterprise social video collaboration platform.
-    - >
-      Frontend: Angular, S3, Cloudfront, DaisyUI, Lambda@Edge, Tailwind, and Video.js
-    - >
-      Backend: Serverless Framework, NestJS, API Gateway, S3, SES, DynamoDB, Elemental MediaConvert, EventBridge, Lambda, Maizzle, NestJS, PostgreSQL, and Prisma
-- work4:
+      Founded DemoFox, an AI-powered enterprise social video collaboration startup.
+
+- work3:
   company: UserTesting
   link: https://www.usertesting.com/
   location: Chamblee, Georgia
@@ -50,17 +34,13 @@
   duration: Aug. 2021 - Feb. 2023
   description:
     - >
-      Mentored emerging engineering leaders to develop the skills to lead successful, empowered teams.
+      Led  3-team, 15-person Test Results engineering organization.
     - >
-      Balanced new product initiatives, maintenance, and future investment work across multiple teams.
+      Directly managed and mentored engineering managers and staff engineers through the architecture proposal process for new features such as full-text search.
     - >
-      Frontend: Angular, StencilJS, and Bootstrap
-    - >
-      Backend: Ruby on Rails and MySQL
-    - >
-      Testing: Cypress and Selenium  
+      Empowered future architecture flexibility by adding core domain model lifecycle events to application event bus.
 
-- work5:
+- work4:
   company: UserTesting <small>(continued)</small>
   link: https://www.usertesting.com/
   location: Chamblee, Georgia
@@ -69,13 +49,15 @@
   duration: Jul. 2019 - Aug. 2021
   description:
   - >
-    Project lead for Keyword Maps, a novel, interactive machine-learning-powered transcript visualization.
+    Accelerated customer time-to-value with Keyword Maps, a novel aggregate transcript visualization.
   - >
-    Architected transition from AngularJS monolith to Angular and React-based NX monorepo.
+    Guided engineers’ career growth, mentoring them into senior, staff, principal, and engineering manager roles through tailored development plans and coaching.
   - >
-    Improved team efficiency with Cypress API-mocking integration testing strategy.
+    Revitalized department-wide legacy AngularJS upgrade by introducing custom monorepo tooling.
+  - >
+    Improved design system release velocity with Cypress visual baseline integration testing.
 
-- work6:
+- work5:
   company: Kabbage
   link: https://www.kabbage.com/
   location: Atlanta, Georgia
@@ -83,14 +65,14 @@
   started: 2018
   duration: Apr. 2018 - Mar. 2019
   description:
+  - > 
+    Managed two teams of software and QA engineers responsible for the marketing website and signup funnel.
   - >
-    Drafted performance improvement and career development plans. Coached team members through individualized plans and tracked improvement.
+    Drafted performance improvement and career development plans.
   - >
-    Frontend: Angular and Bootstrap
-  - >
-    Backend: nginx, Express, AWS Elastic Beanstalk, .NET, and IIS
+    Coached team members through individualized plans and tracked improvement.
 
-- work7:
+- work6:
   company: Kabbage <small>(continued)</small>
   link: https://www.kabbage.com/
   location: Atlanta, Georgia
@@ -99,9 +81,11 @@
   duration: Jan. 2015 - Apr. 2018
   description:
     - >
-      Co-designed Kabbage's Angular, Express.js, Docker, and AWS Elastic Beanstalk deployment stack.
+      Directly increased same-day cash advance volume through redesigned signup flow.
+    - >
+      Architected core product transition from multi-tenant ASP.NET to single-tenant Single Page Applications back by multi-tenant microservices.
 
-- work8:
+- work7:
   company: Octane5 International
   link: https://www.octane5.com/
   location: Alpharetta, Georgia
@@ -110,4 +94,16 @@
   duration: Apr. 2014 - Dec. 2014
   description:
   - >
-    Developed and maintained BrandComply, a Django product licensing Software as a Service platform.
+    Developed and maintained BrandComply, a specialized brand license management CMS platform
+
+- work8:
+  company: Veloxiti, Inc
+  link: https://www.veloxiti.com/
+  location: Alpharetta, Georgia
+  title: Engineer
+  started: 2013
+  duration: Jul. 2013 - Apr. 2014
+  description:
+    - >
+      Developed systems for the US Army Civil Information Managment program in conjuction with the US Army Research Laboratory.
+
