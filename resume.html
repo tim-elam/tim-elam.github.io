@@ -4,10 +4,13 @@ layout: default
 <div class="container">
   <div class="sections-row row">
     {% if site.data.summary %}
-    <div class="summary col-xs-12">
-      <h3 class="title with-icon"><span class="fa fa-user cat-title"></span>Summary</h3>
+    <div class="summary col-12">
+      <h3 class="title with-icon">
+        <span class="fa fa-user cat-title"></span>
+        Summary
+      </h3>
       <div class="row">
-        <div class="col-xs-12">
+        <div class="col-12">
           <div class="summary-panel">
             {{ site.data.summary }}
           </div>
@@ -16,57 +19,63 @@ layout: default
     </div>
     {% endif %}
     {% if site.data.skills %}
-    <div class="skills col-xs-12">
-      <h3 class="title with-icon"><span class="fa fa-laptop cat-title"></span>Skills</h3>
+    <div class="skills col-12">
+      <h3 class="title with-icon">
+        <span class="fa fa-laptop cat-title"></span>
+        Skills
+      </h3>
       <div class="row row-no-gutters">
-      {% if site.data.skills.languages %}
-        <div class="col-xs-12 col-sm-4">
+        {% if site.data.skills.languages %}
+        <div class="col-12 col-sm-4">
           <div class="skill-panel">
             <div class="skill-title">
               Languages
             </div>
             <ul class="skill-list">
               {% for language in site.data.skills.languages %}
-                <li>{{ language }}</li>
+              <li>{{ language }}</li>
               {% endfor %}
             </ul>
           </div>
         </div>
-      {% endif %}
-      {% if site.data.skills.frameworks %}
-        <div class="col-xs-12 col-sm-4">
+        {% endif %}
+        {% if site.data.skills.frameworks %}
+        <div class="col-12 col-sm-4">
           <div class="skill-panel">
             <div class="skill-title">
               Frameworks
             </div>
             <ul class="skill-list">
               {% for framework in site.data.skills.frameworks %}
-                <li>{{ framework }}</li>
+              <li>{{ framework }}</li>
               {% endfor %}
             </ul>
           </div>
         </div>
-      {% endif %}
-      {% if site.data.skills.platforms %}
-        <div class="col-xs-12 col-sm-4">
+        {% endif %}
+        {% if site.data.skills.platforms %}
+        <div class="col-12 col-sm-4">
           <div class="skill-panel">
             <div class="skill-title">
               Platforms
             </div>
             <ul class="skill-list">
               {% for platform in site.data.skills.platforms %}
-                <li>{{ platform }}</li>
+              <li>{{ platform }}</li>
               {% endfor %}
             </ul>
           </div>
         </div>
+        {% endif %}
+      </div>
       {% endif %}
-      </div>  
-    {% endif %}
     </div>
-    <div class="col-xs-12">
-      {% if site.data.workHistory %}
-      <h3 class="title with-icon on-timeline"><span class="fa fa-building cat-title"></span>Work Experience</h3>
+    {% if site.data.workHistory %}
+    <div class="col-12">
+      <h3 class="title with-icon on-timeline">
+        <span class="fa fa-building cat-title"></span>
+        Work Experience
+      </h3>
       <ul class="timeline">
         {% for work in site.data.workHistory %}
         <li class="timeline-inverted">
@@ -119,8 +128,8 @@ layout: default
               {% if work.description %}
               <ul>
                 {% for descItem in work.description %}
-                <li>{{ descItem }}</p>
-                  {% endfor %}
+                <li>{{ descItem }}</li>
+                {% endfor %}
               </ul>
               {% endif %}
             </div>
@@ -128,10 +137,10 @@ layout: default
         </li>
         {% endfor %}
       </ul>
-      {% endif %}
-      </div>
-      <div class="col-xs-12">
-      {% if site.data.educationHistory %}
+    </div>
+    {% endif %}
+    {% if site.data.educationHistory %}
+    <div class="col-12">
       <h3 class="title with-icon on-timeline"><span class="fa fa-graduation-cap cat-title"></span>Education</h3>
       <ul class="timeline">
         {% for education in site.data.educationHistory %}
@@ -193,6 +202,62 @@ layout: default
         </li>
         {% endfor %}
       </ul>
-      {% endif %}
     </div>
+    {% endif %}
+    {% if site.data.sideProjects %}
+    <div class="col-12">
+      <h3 class="title with-icon on-timeline">
+        <span class="fa fa-lightbulb cat-title"></span>
+        Side Projects
+      </h3>
+      <ul class="timeline">
+        {% for project in site.data.sideProjects %}
+        <li class="timeline-inverted">
+          {% if project.started %}
+          <div class="timeline-badge info">{{ project.started }}</div>
+          {% endif %}
+          <div class="timeline-panel grid-block">
+            <div class="timeline-heading clearfix">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-8">
+                    {% if project.title %}
+                    <h4 class="timeline-title">
+                      {% if project.link %}
+                      <a href="{{ project.link }}" target="_blank"
+                         rel="noopener nofollow noreferrer">{{ project.title }}</a>
+                      {% else %}
+                      {{ project.title }}
+                      {% endif %}
+                    </h4>
+                    {% endif %}
+                  </div>
+                  <div class="col-sm-4 duration-location">
+                    <p>
+                      <small class="text-muted">
+                        {% if project.duration %}
+                        <i class="fa fa-calendar"></i> {{ project.duration }}
+                        {% endif %}
+                      </small>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="timeline-body">
+              {% if project.description %}
+              <ul>
+                {% for descItem in project.description %}
+                <li>{{ descItem }}</li>
+                {% endfor %}
+              </ul>
+              {% endif %}
+            </div>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </div>
 </div>

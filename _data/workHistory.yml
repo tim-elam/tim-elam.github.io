@@ -1,20 +1,31 @@
 - work1:
+  company: YouLend
+  link: https://youlend.com
+  title: Lead Engineer
+  started: 2025
+  duration: Mar. 2025 - Present
+  description:
+    - >
+      Established YouLend's first US-based engineering team.
+    - >
+      Organized a <i>Refactoring UI</i> book club to foster adoption and ownership and of visual design principles.
+    - >
+      Supported US business operations via hands-on feature development, maintenance, and support.
+- work2:
   company: Branch Politics
   link: https://branch.vote
   title: CTO
   started: 2024
-  duration: Dec. 2024 - Present
+  duration: Dec. 2024 - Mar. 2025
   description:
     - >
-      Decreased cost to profile political candidates with automated retrieval augmented generation-based AI political candidate website scraper and profiler.
+      Automated political candidate research process by replacing local scripts with event-driven serverless architecture.
     - >
       Increased service reliability by introducing ephemeral environments for end-to-end testing in temporarily provisioned environments.
     - >
       Optimized cloud compute costs by migrating applications from Heroku to AWS and archiving unused resources.
-    - >
-      Established incremental tech debt mitigation strategy and encouragement of best practices.
 
-- work2:
+- work3:
   company: DemoFox
   link: https://www.demofox.com/
   location: Atlanta, Georgia
@@ -25,7 +36,7 @@
     - >
       Founded DemoFox, an AI-powered enterprise social video collaboration startup.
 
-- work3:
+- work4:
   company: UserTesting
   link: https://www.usertesting.com/
   location: Chamblee, Georgia
@@ -40,7 +51,7 @@
     - >
       Empowered future architecture flexibility by adding core domain model lifecycle events to application event bus.
 
-- work4:
+- work5:
   company: UserTesting <small>(continued)</small>
   link: https://www.usertesting.com/
   location: Chamblee, Georgia
@@ -57,7 +68,7 @@
   - >
     Improved design system release velocity with Cypress visual baseline integration testing.
 
-- work5:
+- work6:
   company: Kabbage
   link: https://www.kabbage.com/
   location: Atlanta, Georgia
@@ -72,7 +83,7 @@
   - >
     Coached team members through individualized plans and tracked improvement.
 
-- work6:
+- work7:
   company: Kabbage <small>(continued)</small>
   link: https://www.kabbage.com/
   location: Atlanta, Georgia
@@ -85,7 +96,7 @@
     - >
       Architected core product transition from multi-tenant ASP.NET to single-tenant Single Page Applications back by multi-tenant microservices.
 
-- work7:
+- work8:
   company: Octane5 International
   link: https://www.octane5.com/
   location: Alpharetta, Georgia
@@ -96,7 +107,7 @@
   - >
     Developed and maintained BrandComply, a specialized brand license management CMS platform
 
-- work8:
+- work9:
   company: Veloxiti, Inc
   link: https://www.veloxiti.com/
   location: Alpharetta, Georgia
@@ -105,5 +116,5 @@
   duration: Jul. 2013 - Apr. 2014
   description:
     - >
-      Developed systems for the US Army Civil Information Managment program in conjuction with the US Army Research Laboratory.
+      Developed systems for the US Army Civil Information Managment program with the US Army Research Laboratory.
 

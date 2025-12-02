@@ -79,8 +79,7 @@ a[href]:after {
 }
 
 .timeline-body li {
-    margin: -3px 0 -7px 0;
-    line-height: 18px;
+    margin: 0;
 }
 
 .duration-location {
@@ -122,6 +121,7 @@ a[href]:after {
 
 .title {
     font-size: 20px;
+    opacity: 50%;
 }
 
 .timeline-title {
@@ -141,6 +141,7 @@ a[href]:after {
     margin-left: 15px;
     margin-bottom: -10px;
     font-size: 16px;
+    font-weight: 600;
 }
 
 .skill-title::after {

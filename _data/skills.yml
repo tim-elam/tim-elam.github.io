@@ -2,8 +2,7 @@ languages:
   - C#
   - Go
   - GraphQL
-  - HTML / CSS
-  - JavaScript
+  - HTML + CSS + JavaScript
   - Python
   - Ruby
   - SQL
@@ -12,21 +11,19 @@ languages:
 frameworks:
   - .NET
   - Angular
-  - NestJS
+  - Django
   - Next.JS
   - Node.js
-  - Prisma
   - React
   - Ruby on Rails
   - Tailwind CSS
 
 platforms:
-  - AWS CDK
-  - CircleCI
   - Docker
   - GitHub Actions
+  - Kubernetes
+  - LangChain
   - MongoDB
-  - OpenAI
   - PostgreSQL
-  - Serverless Framework
-  - Serverless Stack (SST)
+  - SST
+  - Serverless
