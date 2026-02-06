@@ -18,58 +18,6 @@ layout: default
       </div>
     </div>
     {% endif %}
-    {% if site.data.skills %}
-    <div class="skills col-12">
-      <h3 class="title with-icon">
-        <span class="fa fa-laptop cat-title"></span>
-        Skills
-      </h3>
-      <div class="row row-no-gutters">
-        {% if site.data.skills.languages %}
-        <div class="col-12 col-sm-4">
-          <div class="skill-panel">
-            <div class="skill-title">
-              Languages
-            </div>
-            <ul class="skill-list">
-              {% for language in site.data.skills.languages %}
-              <li>{{ language }}</li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-        {% endif %}
-        {% if site.data.skills.frameworks %}
-        <div class="col-12 col-sm-4">
-          <div class="skill-panel">
-            <div class="skill-title">
-              Frameworks
-            </div>
-            <ul class="skill-list">
-              {% for framework in site.data.skills.frameworks %}
-              <li>{{ framework }}</li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-        {% endif %}
-        {% if site.data.skills.platforms %}
-        <div class="col-12 col-sm-4">
-          <div class="skill-panel">
-            <div class="skill-title">
-              Platforms
-            </div>
-            <ul class="skill-list">
-              {% for platform in site.data.skills.platforms %}
-              <li>{{ platform }}</li>
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-        {% endif %}
-      </div>
-      {% endif %}
-    </div>
     {% if site.data.workHistory %}
     <div class="col-12">
       <h3 class="title with-icon on-timeline">
@@ -125,6 +73,13 @@ layout: default
               </div>
             </div>
             <div class="timeline-body">
+              {% if work.techStack %}
+              {% assign techCount = work.techStack | size %}
+              <div class="tech-stack-line">
+                <span class="tech-stack-label">Tech Stack:</span>
+                {% for technology in work.techStack %}<span class="tech-stack">{{ technology }}</span>{% if forloop.last %}.{% elsif techCount == 2 %} and {% elsif forloop.rindex == 2 %}, and {% else %}, {% endif %}{% endfor %}
+              </div>
+              {% endif %}
               {% if work.description %}
               <ul>
                 {% for descItem in work.description %}
@@ -245,6 +200,13 @@ layout: default
               </div>
             </div>
             <div class="timeline-body">
+              {% if project.techStack %}
+              {% assign projectTechCount = project.techStack | size %}
+              <div class="tech-stack-line">
+                <span class="tech-stack-label">Tech stack:</span>
+                {% for technology in project.techStack %}<span class="tech-stack">{{ technology }}</span>{% if forloop.last %}.{% elsif projectTechCount == 2 %} and {% elsif forloop.rindex == 2 %}, and {% else %}, {% endif %}{% endfor %}
+              </div>
+              {% endif %}
               {% if project.description %}
               <ul>
                 {% for descItem in project.description %}

@@ -3,12 +3,19 @@
   link: https://youlend.com
   title: Lead Engineer
   started: 2025
-  duration: Mar. 2025 - Present
+  duration: Mar. 2025 - Feb. 2026
+  techStack:
+    - Angular
+    - TypeScript
+    - Asp.Net
+    - C#
+    - MongoDB
+    - PostgreSQL
+    - Kubernetes
+    - AWS
   description:
     - >
       Established YouLend's first US-based engineering team.
-    - >
-      Organized a <i>Refactoring UI</i> book club to foster adoption and ownership and of visual design principles.
     - >
       Supported US business operations via hands-on feature development, maintenance, and support.
 - work2:
@@ -17,6 +24,18 @@
   title: CTO
   started: 2024
   duration: Dec. 2024 - Mar. 2025
+  techStack:
+    - NextJS
+    - React
+    - Express.js
+    - Feathers.js
+    - TypeScript
+    - Node.js
+    - OpenAI
+    - MongoDB
+    - Serverless Stack
+    - Heroku
+    - AWS
   description:
     - >
       Automated political candidate research process by replacing local scripts with event-driven serverless architecture.
@@ -32,6 +51,16 @@
   title: Founder & CEO
   started: 2023
   duration: Mar. 2023 - Sep. 2024
+  techStack:
+    - Angular
+    - Tailwind CSS
+    - NestJS
+    - TypeScript
+    - Node.js
+    - PostgreSQL
+    - OpenAI
+    - Serverless Framework
+    - AWS
   description:
     - >
       Founded DemoFox, an AI-powered enterprise social video collaboration startup.
@@ -43,6 +72,14 @@
   title: Director of Engineering
   started: 2021
   duration: Aug. 2021 - Feb. 2023
+  techStack:
+    - Angular
+    - TypeScript
+    - Ruby on Rails
+    - GraphQL
+    - MySQL
+    - Cloudformation
+    - AWS
   description:
     - >
       Led  3-team, 15-person Test Results engineering organization.
@@ -75,6 +112,14 @@
   title: Software Development Manager
   started: 2018
   duration: Apr. 2018 - Mar. 2019
+  techStack:
+    - Angular
+    - TypeScript
+    - Asp.Net
+    - C#
+    - SQL Server
+    - Elastic Beanstalk
+    - AWS
   description:
   - > 
     Managed two teams of software and QA engineers responsible for the marketing website and signup funnel.
@@ -90,6 +135,14 @@
   title: Senior Software Engineer
   started: 2015
   duration: Jan. 2015 - Apr. 2018
+  techStack:
+    - AngularJS
+    - JavaScript
+    - Django
+    - Python
+    - SQL Server
+    - Elastic Beanstalk
+    - AWS
   description:
     - >
       Directly increased same-day cash advance volume through redesigned signup flow.
@@ -103,6 +156,11 @@
   title: Django Developer
   started: 2014
   duration: Apr. 2014 - Dec. 2014
+  techStack:
+   - JavaScript
+   - Django
+   - Python
+   - PostgreSQL
   description:
   - >
     Developed and maintained BrandComply, a specialized brand license management CMS platform
@@ -114,6 +172,9 @@
   title: Engineer
   started: 2013
   duration: Jul. 2013 - Apr. 2014
+  techStack:
+  - Play Framrwork
+  - Java
   description:
     - >
       Developed systems for the US Army Civil Information Managment program with the US Army Research Laboratory.

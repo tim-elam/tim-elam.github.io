@@ -3,6 +3,12 @@
   link: https://cosplayherald.com
   started: 2025
   duration: Aug. 2025 - Sep. 2025
+  techStack:
+  - NextJS
+  - React
+  - Tailwind CSS
+  - Sanity CMS
+  - Vercel
   description:
     - >
       Designed, developed, and launched <i>The Cosplay Herald</i>, a niche news platform for the competitive cosplay community.
