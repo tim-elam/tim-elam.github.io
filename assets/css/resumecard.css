@@ -319,6 +319,17 @@ hr {
     margin-bottom: 10px;
 }
 
+.scope-line {
+    margin-left: 15px;
+    margin-bottom: 5px;
+    color: #666;
+}
+
+.scope-label {
+    font-weight: 600;
+    color: #555;
+}
+
 .tech-stack-label {
     font-weight: 400;
     text-transform: none;

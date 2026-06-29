@@ -1,13 +1,48 @@
 - work1:
+  company: StartProto
+  link: https://startproto.com
+  location: Atlanta, Georgia
+  title: Head of Engineering
+  started: 2026
+  duration: Feb. 2026 - Present
+  scope: End-to-end ownership of MCP, Public API, FedRAMP Moderate readiness, AI assistant architecture, ephemeral environments, E2E testing, and observability modernization.
+  techStack:
+    - Python
+    - TypeScript
+    - React
+    - FastAPI
+    - MongoDB
+    - AWS
+    - AWS GovCloud
+    - AWS Bedrock
+    - ECS
+    - Lambda
+    - CloudFront/WAF
+    - Datadog
+    - Langfuse
+    - Playwright
+    - MCP
+  description:
+    - >
+      Owned MCP and Public API programs end-to-end, designing agent-safe read/write access, production API surfaces, and OAuth scopes for controlled access to StartProto data.
+    - >
+      Led FedRAMP Moderate readiness across GovCloud architecture, AWS evidence, boundary decisions, TLS/KMS/secrets reviews, Orca/Datadog integration, and assessor-ready policy artifacts.
+    - >
+      Architected AI assistant capabilities and modernized observability across Datadog, Langfuse, and Bedrock traces, hardening streaming, conversation recovery, routing, and production debugging.
+    - >
+      Introduced ephemeral frontend/backend environments and E2E testing, creating branch previews, release PR workflows, Playwright coverage, and production health checks across frontend, backend, and testing repos.
+
+- work2:
   company: YouLend
   link: https://youlend.com
   title: Lead Engineer
   started: 2025
   duration: Mar. 2025 - Feb. 2026
+  scope: First US-based engineering presence supporting US business operations.
   techStack:
     - Angular
     - TypeScript
-    - Asp.Net
+    - ASP.NET
     - C#
     - MongoDB
     - PostgreSQL
@@ -15,15 +50,17 @@
     - AWS
   description:
     - >
-      Established YouLend's first US-based engineering team.
+      Established YouLend's US engineering presence and supported local business operations.
     - >
-      Supported US business operations via hands-on feature development, maintenance, and support.
-- work2:
+      Delivered hands-on feature development, maintenance, and production support across the lending platform.
+
+- work3:
   company: Branch Politics
   link: https://branch.vote
   title: CTO
   started: 2024
   duration: Dec. 2024 - Mar. 2025
+  scope: Early-stage political technology platform; owned product architecture, reliability, and cloud migration.
   techStack:
     - NextJS
     - React
@@ -38,19 +75,20 @@
     - AWS
   description:
     - >
-      Automated political candidate research process by replacing local scripts with event-driven serverless architecture.
+      Automated political candidate research by replacing local scripts with event-driven serverless architecture.
     - >
-      Increased service reliability by introducing ephemeral environments for end-to-end testing in temporarily provisioned environments.
+      Increased service reliability with ephemeral environments for end-to-end testing in temporarily provisioned environments.
     - >
       Optimized cloud compute costs by migrating applications from Heroku to AWS and archiving unused resources.
 
-- work3:
+- work4:
   company: DemoFox
   link: https://www.demofox.com/
   location: Atlanta, Georgia
   title: Founder & CEO
   started: 2023
   duration: Mar. 2023 - Sep. 2024
+  scope: Founder responsible for product, engineering, and commercialization of an AI video collaboration startup.
   techStack:
     - Angular
     - Tailwind CSS
@@ -65,70 +103,65 @@
     - >
       Founded DemoFox, an AI-powered enterprise social video collaboration startup.
 
-- work4:
+- work5:
   company: UserTesting
   link: https://www.usertesting.com/
   location: Chamblee, Georgia
   title: Director of Engineering
   started: 2021
   duration: Aug. 2021 - Feb. 2023
+  scope: Led 3 teams and a 15-person Test Results engineering organization.
   techStack:
     - Angular
     - TypeScript
     - Ruby on Rails
     - GraphQL
     - MySQL
-    - Cloudformation
+    - CloudFormation
     - AWS
   description:
     - >
-      Led  3-team, 15-person Test Results engineering organization.
+      Managed engineering managers and staff engineers through architecture proposals for features such as full-text search.
     - >
-      Directly managed and mentored engineering managers and staff engineers through the architecture proposal process for new features such as full-text search.
-    - >
-      Empowered future architecture flexibility by adding core domain model lifecycle events to application event bus.
+      Added core domain model lifecycle events to the application event bus, improving long-term architecture flexibility.
 
-- work5:
+- work6:
   company: UserTesting <small>(continued)</small>
   link: https://www.usertesting.com/
   location: Chamblee, Georgia
   title: Senior Manager, Engineering
   started: 2019
   duration: Jul. 2019 - Aug. 2021
+  scope: Engineering management and technical leadership for analytics, transcript visualization, and frontend modernization.
   description:
   - >
     Accelerated customer time-to-value with Keyword Maps, a novel aggregate transcript visualization.
   - >
-    Guided engineers’ career growth, mentoring them into senior, staff, principal, and engineering manager roles through tailored development plans and coaching.
+    Mentored engineers into senior, staff, principal, and engineering manager roles through tailored growth plans and coaching.
   - >
-    Revitalized department-wide legacy AngularJS upgrade by introducing custom monorepo tooling.
-  - >
-    Improved design system release velocity with Cypress visual baseline integration testing.
+    Revitalized a department-wide legacy AngularJS upgrade with custom monorepo tooling and Cypress visual baseline testing.
 
-- work6:
+- work7:
   company: Kabbage
   link: https://www.kabbage.com/
   location: Atlanta, Georgia
   title: Software Development Manager
   started: 2018
   duration: Apr. 2018 - Mar. 2019
+  scope: Managed two software and QA teams responsible for the marketing website and signup funnel.
   techStack:
     - Angular
     - TypeScript
-    - Asp.Net
+    - ASP.NET
     - C#
     - SQL Server
     - Elastic Beanstalk
     - AWS
   description:
-  - > 
-    Managed two teams of software and QA engineers responsible for the marketing website and signup funnel.
   - >
-    Drafted performance improvement and career development plans.
-  - >
-    Coached team members through individualized plans and tracked improvement.
+    Drafted performance-improvement and career-development plans, coaching team members through individualized goals.
 
-- work7:
+- work8:
   company: Kabbage <small>(continued)</small>
   link: https://www.kabbage.com/
   location: Atlanta, Georgia
@@ -145,11 +178,11 @@
     - AWS
   description:
     - >
-      Directly increased same-day cash advance volume through redesigned signup flow.
+      Directly increased same-day cash advance volume through a redesigned signup flow.
     - >
-      Architected core product transition from multi-tenant ASP.NET to single-tenant Single Page Applications back by multi-tenant microservices.
+      Architected core product transition from multi-tenant ASP.NET to single-tenant SPAs backed by multi-tenant microservices.
 
-- work8:
+- work9:
   company: Octane5 International
   link: https://www.octane5.com/
   location: Alpharetta, Georgia
@@ -163,9 +196,9 @@
    - PostgreSQL
   description:
   - >
-    Developed and maintained BrandComply, a specialized brand license management CMS platform
+    Developed and maintained BrandComply, a specialized brand-license-management CMS platform.
 
-- work9:
+- work10:
   company: Veloxiti, Inc
   link: https://www.veloxiti.com/
   location: Alpharetta, Georgia
@@ -173,9 +206,8 @@
   started: 2013
   duration: Jul. 2013 - Apr. 2014
   techStack:
-  - Play Framrwork
+  - Play Framework
   - Java
   description:
     - >
-      Developed systems for the US Army Civil Information Managment program with the US Army Research Laboratory.
-
+      Developed systems for the US Army Civil Information Management program with the US Army Research Laboratory.

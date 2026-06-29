@@ -1,5 +1,35 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #fff !important;
+    color: #000;
+    font-size: 10.35pt;
+    line-height: 1.2;
+}
+
+@page {
+    size: letter;
+    margin: 0.38in 0.48in 0.34in;
+}
+
+* {
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+
+.container {
+    width: auto !important;
+    max-width: none !important;
+    padding: 0 !important;
+}
+
+.row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+[class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
 }
 
 .avatar {
@@ -7,8 +37,10 @@ body {
 }
 
 .header {
-    margin-bottom: 0;
-    padding-bottom: 2px;
+    margin: 0 0 0.05in;
+    padding: 0 0 0.07in;
+    border-bottom: 1px solid #cfcfcf;
+    background: #fff !important;
 }
 
 .header > div {
@@ -16,21 +48,33 @@ body {
 }
 
 .header h4 {
-    font-size: 26px;
+    font-size: 23pt;
+    line-height: 1;
     font-weight: 700;
-    margin-bottom: 5px;
+    margin: 0 0 0.03in;
 }
 
 .header p {
-    margin-bottom: 0px;
+    margin: 0 0 0.01in;
+    font-size: 11.5pt;
+    line-height: 1.05;
 }
 
 h3.title.with-icon {
-    margin: 12px 0 0 0;
-    padding-bottom: 2px;
+    margin: 0.09in 0 0.03in;
+    padding-bottom: 0;
     padding-left: 0;
     font-weight: 600;
-    color: darkgray;
+    color: #707070;
+    page-break-after: avoid;
+}
+
+.sections-row > div:nth-of-type(n+3) h3.title.with-icon {
+    margin-top: 0.26in;
+}
+
+.sections-row > div:nth-of-type(4) h3.title.with-icon {
+    margin-top: 0.30in;
 }
 
 ul.timeline {
@@ -38,7 +82,8 @@ ul.timeline {
 }
 
 .timeline-title {
-    font-size: 18px;
+    font-size: 15pt;
+    line-height: 1.02;
     font-weight: 600;
 }
 
@@ -47,13 +92,23 @@ ul.timeline {
 }
 
 .timeline > li {
-    margin: 0;
+    margin: 0 0 0.105in;
+    break-inside: avoid;
+    page-break-inside: avoid;
+}
+
+.sections-row > div:nth-of-type(n+3) .timeline > li {
+    margin-bottom: 0.13in;
+}
+
+.sections-row > div:nth-of-type(n+3) .timeline > li + li {
+    padding-top: 0.035in;
 }
 
 .timeline > li > .timeline-panel {
     border: none;
     padding: 0;
-    margin: 10px 0 0 0;
+    margin: 0;
 }
 
 .timeline > li.timeline-inverted > .timeline-panel:before {
@@ -64,9 +119,18 @@ ul.timeline {
     margin: 0;
 }
 
+.timeline-heading {
+    margin-bottom: 0.018in;
+}
+
+.sections-row > div:nth-of-type(n+3) .timeline-heading {
+    margin-bottom: 0.03in;
+}
+
 .timeline-heading p {
-    margin-top: 3px;
-    margin-bottom: 3px;
+    margin: 0.01in 0;
+    font-size: 10.8pt;
+    line-height: 1.05;
 }
 
 a[href]:after {
@@ -74,36 +138,67 @@ a[href]:after {
 }
 
 .timeline-body ul {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin: 0.045in 0 0;
+    padding-left: 0.16in;
 }
 
 .timeline-body li {
-    margin: 0;
+    margin: 0 0 0.03in;
+    padding-left: 0.01in;
+    font-size: 10.35pt;
+    line-height: 1.2;
 }
 
 .tech-stack-line {
-    margin: 5px 0 0 15px;
-    font-size: 12px;
-    color: #666;
+    margin: 0.045in 0 0 0.13in;
+    font-size: 9pt;
+    line-height: 1.16;
+    color: #4f4f4f;
+}
+
+.scope-line {
+    margin: 0.045in 0 0 0.13in;
+    font-size: 9pt;
+    line-height: 1.16;
+    color: #4f4f4f;
+}
+
+.scope-line + .tech-stack-line {
+    margin-top: 0.02in;
 }
 
 .tech-stack-label {
     font-weight: normal;
     margin-right: 0;
-    color: #888;
+    color: #666;
+}
+
+.scope-label {
+    font-weight: normal;
+    margin-right: 0;
+    color: #666;
 }
 
 .tech-stack {
     font-weight: normal;
-    color: #666;
+    color: #4f4f4f;
 }
 
 .duration-location {
     text-align: right;
     position: absolute;
-    top: -2px;
+    top: 0;
     right: 0;
+    width: 30% !important;
+}
+
+.duration-location p {
+    margin: 0 0 0.02in;
+}
+
+.duration-location small {
+    color: #000 !important;
+    font-size: 9.8pt;
 }
 
 .fa {
@@ -123,10 +218,11 @@ a[href]:after {
 }
 
 .summary-panel {
-    margin: 10px 20px 0 20px;
+    margin: 0.02in 0.15in 0;
     padding: 0px;
     border: none;
-    font-size: 12px;
+    font-size: 10pt;
+    line-height: 1.22;
     text-align: center;
 }
 
@@ -137,16 +233,17 @@ a[href]:after {
 }
 
 .title {
-    font-size: 20px;
+    font-size: 17.5pt;
+    line-height: 1;
     opacity: 50%;
 }
 
 .timeline-title {
-    font-size: 18px;
+    font-size: 15pt;
 }
 
 .sections-row > div {
-    margin-bottom: 0;
+    margin-bottom: 0.06in;
 }
 
 .skills, .skills * {
@@ -194,5 +291,5 @@ a[href]:after {
 }
 
 .sections-row > div {
-    margin-bottom: 18px;
+    margin-bottom: 0.06in;
 }

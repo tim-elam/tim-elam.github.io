@@ -73,6 +73,12 @@ layout: default
               </div>
             </div>
             <div class="timeline-body">
+              {% if work.scope %}
+              <div class="scope-line">
+                <span class="scope-label">Scope:</span>
+                {{ work.scope }}
+              </div>
+              {% endif %}
               {% if work.techStack %}
               {% assign techCount = work.techStack | size %}
               <div class="tech-stack-line">
