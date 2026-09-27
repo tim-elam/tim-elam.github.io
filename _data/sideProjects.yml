@@ -1,14 +1,16 @@
 - project1:
-  title: The Cosplay Herald
-  link: https://cosplayherald.com
-  started: 2025
-  duration: Aug. 2025 - Sep. 2025
+  title: Pattern Out
+  link: https://www.patternout.com
+  started: 2026
+  duration: Sep. 2026 - Present
   techStack:
   - NextJS
+  - TypeScript
   - React
-  - Tailwind CSS
-  - Sanity CMS
+  - MongoDB
+  - Storybook
+  - Playwright
   - Vercel
   description:
     - >
-      Designed, developed, and launched <i>The Cosplay Herald</i>, a niche news platform for the competitive cosplay community.
+      Designing and building <i>Pattern Out</i>, a web-based parametric pattern-design tool with replayable construction timelines.
